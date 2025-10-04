@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projekt: WLAN‑gesteuertes Fahrzeug (DE)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index-de.html#projects" class="logo">ENG<span>PORT</span></a>
+        <nav class="nav" id="nav">
+          <a href="index-de.html">Start</a>
+          <a href="index-de.html#projects">Projekte</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Navigation umschalten" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container narrow">
+          <h1 class="section-title">WLAN‑gesteuertes Fahrzeug</h1>
+          <div class="card-media" style="margin-bottom:14px">
+            <img src="assets/images/P tnk/1 main.png" alt="WLAN‑gesteuertes Fahrzeug" style="width:100%;height:100%;object-fit:cover" />
+          </div>
+          <p class="intro">Das Projekt begann als Konzept einer modularen mobilen Basis für robotische Erkundung, basierend auf einem ESP‑Mikrocontroller mit der Möglichkeit, verschiedene Funkmodule für verschiedene Frequenzen hinzuzufügen. Die Hinzufügung eines Panzerturms war eine lustige Idee, die ich im Kopf hatte, und ein guter Machbarkeitsnachweis für einen vertikalen Stabilisator mit Beschleunigungsmesser zusätzlich zu einer Kamera für Live‑Videoübertragung.</p>
+          
+          <h3>Projektdetails</h3>
+          <p><strong>Konzept:</strong> Modulare mobile Plattform für Erkundungs‑ und Überwachungsanwendungen. Das Grunddesign ermöglicht eine einfache Integration verschiedener Sensoren und Kommunikationsmodule.</p>
+          
+          <p><strong>Hauptmerkmale:</strong></p>
+          <ul>
+            <li>ESP32‑basiertes Steuerungssystem mit WLAN‑Konnektivität</li>
+            <li>Modulares Funkkommunikationssystem mit Unterstützung mehrerer Frequenzen</li>
+            <li>Echtzeit‑Videostreaming über integriertes Kameramodul</li>
+            <li>Vertikales Stabilisierungssystem mit Beschleunigungsmesser‑Rückmeldung</li>
+            <li>3D‑gedrucktes Chassis und Komponenten für Anpassung</li>
+            <li>Integration recycelter Materialien für nachhaltiges Design</li>
+          </ul>
+          
+          <p><strong>Technische Umsetzung:</strong> Das System verwendet C/C++‑Programmierung für Low‑Level‑Steuerung mit Sensorintegration für Stabilität und Navigation. Das modulare Design ermöglicht einfache Upgrades und verschiedene Nutzlastkonfigurationen.</p>
+          <h3>Technologien</h3>
+          <div class="tags" style="margin-bottom:12px"><span>ESP</span><span>WLAN</span><span>Kamera</span></div>
+          <p><a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub‑Repository</a></p>
+          
+          <h3>Projektgalerie</h3>
+          <div class="project-gallery">
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/1.png" alt="Fahrzeug Design 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/2.png" alt="Fahrzeug Design 2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/3.jpg" alt="Fahrzeug Bau 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/4.jpg" alt="Fahrzeug Bau 2" />
+            </div>
+            <div class="gallery-item">
+              <video controls>
+                <source src="assets/images/P tnk/5.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Element nicht.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <span>© <span id="year"></span> Amine Zaidi</span>
+        <div class="footer-links">
+          <a href="index-de.html">Start</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+

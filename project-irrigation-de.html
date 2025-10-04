@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projekt: Fernbewässerung (GSM) (DE)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index-de.html#projects" class="logo">ENG<span>PORT</span></a>
+        <nav class="nav" id="nav">
+          <a href="index-de.html">Start</a>
+          <a href="index-de.html#projects">Projekte</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Navigation umschalten" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container narrow">
+          <h1 class="section-title">AQUAGRID - Fernbewässerung</h1>
+          <div class="card-media" style="margin-bottom:14px">
+            <img src="assets/images/P aquagrid/1 main.jpg" alt="Fernbewässerung (GSM)" style="width:100%;height:100%;object-fit:cover" />
+          </div>
+          <p class="intro">Das Projekt begann als kleine Idee für Landwirte in ländlichen Gebieten Marokkos, um ihnen zu helfen, die Bewässerung von zu Hause aus über SMS‑Nachrichten zu steuern. Das Konzept entwickelte sich zu AQUAGRID, einem Startup, das sich darauf konzentriert, KI einzusetzen, um optimale Bewässerungsverhalten und ‑leistung für nachhaltige Landwirtschaft zu erreichen.</p>
+          
+          <h3>Projektentwicklung</h3>
+          <p><strong>Ursprüngliches Konzept:</strong> Ein Gerät zur Verbindung mit elektrischen Ventilen und zum Senden von Befehlen zum Öffnen oder Schließen über SMS oder zum Senden periodischer wiederholender Bewässerungsprogramme für jeden Bereich zur automatischen Bewässerung. Dies hilft Landwirten mit weit entfernten Farmen, die Bewässerung einfach durchzuführen und Wasserverbrauch zu sparen.</p>
+          
+          <p><strong>Startup‑Entwicklung:</strong> Die Idee entwickelte sich zu <a href="https://aquagrid.fr" target="_blank" rel="noopener" class="link">AQUAGRID</a>, einem Startup mit dem Ziel, KI einzusetzen, um die besten Bewässerungsverhalten und ‑leistung zu erreichen. Das Projekt wird in Zusammenarbeit mit <a href="https://www.linkedin.com/in/mohamed-zaidi?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNG1AU6JNTlSv3a%2BU%2F0I%2FXA%3D%3D" target="_blank" rel="noopener" class="link">Mohammed</a> entwickelt.</p>
+          
+          <h3>Technische Architektur</h3>
+          <p><strong>Hardware‑Komponenten:</strong></p>
+          <ul>
+            <li><strong>ESP‑Mikrocontroller:</strong> Hauptprozessoreinheit für Systemsteuerung und Kommunikation</li>
+            <li><strong>RTC‑Module:</strong> Echtzeituhr für präzise Zeitsteuerung und Planung</li>
+            <li><strong>Relais‑Module:</strong> Steuerung elektrischer Ventile für Bewässerungssystemmanagement</li>
+            <li><strong>GSM SIM800L:</strong> Mobilfunkkommunikationsmodul für SMS und Datenübertragung</li>
+            <li><strong>Sensorintegration:</strong> Bodenfeuchtigkeits‑, Temperatur‑ und Feuchtigkeitsüberwachung</li>
+          </ul>
+          
+          <p><strong>Software‑Stack:</strong></p>
+          <ul>
+            <li><strong>C/C++:</strong> Low‑Level‑Mikrocontrollerprogrammierung für Hardwaresteuerung</li>
+            <li><strong>Python:</strong> Datenverarbeitung, ‑analyse und KI‑Algorithmusimplementierung</li>
+            <li><strong>Flutter:</strong> Plattformübergreifende mobile Anwendung für Landwirt‑Interface</li>
+            <li><strong>MQTT:</strong> Leichtgewichtiges Messaging‑Protokoll für IoT‑Kommunikation</li>
+            <li><strong>HTTP/HTTPS:</strong> Web‑basierte Kommunikation und Cloud‑Integration</li>
+          </ul>
+          
+          <p><strong>Kommunikationsprotokolle:</strong></p>
+          <ul>
+            <li><strong>I2C:</strong> Inter‑integrierte Schaltung für Sensor‑Kommunikation</li>
+            <li><strong>RS485:</strong> Industrielle Kommunikation für Langstrecken‑Sensornetzwerke</li>
+            <li><strong>UART:</strong> Universeller asynchroner Empfänger‑Sender für serielle Kommunikation</li>
+            <li><strong>GSM/GPRS:</strong> Mobilfunknetz‑Konnektivität für Fernoperationen</li>
+          </ul>
+          
+          <h3>Hauptmerkmale</h3>
+          <ul>
+            <li><strong>SMS‑Steuerung:</strong> Fernbewässerungsbefehle über Textnachrichten</li>
+            <li><strong>Automatisierte Planung:</strong> Programmierbare Bewässerungszyklen für verschiedene Zonen</li>
+            <li><strong>Wassereinsparung:</strong> Intelligente Wassernutzungsoptimierung</li>
+            <li><strong>Echtzeitüberwachung:</strong> Live‑Sensordaten und Systemstatus</li>
+            <li><strong>Mobile App:</strong> Benutzerfreundliche Oberfläche für Landwirte</li>
+            <li><strong>Cloud‑Integration:</strong> Datenprotokollierung und Fernverwaltung</li>
+          </ul>
+          
+          <h3>KI‑Integration & Zukünftige Entwicklung</h3>
+          <p>Das Projekt hat erhebliches Potenzial für erweiterte Funktionalitäten:</p>
+          <ul>
+            <li><strong>Lokale KI‑Analyse:</strong> On‑Device‑Machine‑Learning für prädiktive Bewässerung</li>
+            <li><strong>Wetterintegration:</strong> Echtzeit‑Wetterdaten für intelligente Planung</li>
+            <li><strong>Sensorfusion:</strong> Integration zusätzlicher Umweltsensoren</li>
+            <li><strong>Prädiktive Analytik:</strong> Pflanzenspezifische Bewässerungsoptimierung</li>
+            <li><strong>Skalierbare Architektur:</strong> Unterstützung für großflächiges Farmmanagement</li>
+          </ul>
+          
+          <h3>Auswirkungen & Anwendungen</h3>
+          <p>AQUAGRID adressiert kritische Herausforderungen in der modernen Landwirtschaft:</p>
+          <ul>
+            <li>Wasserknappheitsmanagement in ariden Regionen</li>
+            <li>Arbeitskostenreduzierung für Fernfarmoperationen</li>
+            <li>Präzisionslandwirtschafts‑Implementierung</li>
+            <li>Förderung nachhaltiger Landwirtschaftspraktiken</li>
+            <li>Ländliche Entwicklung und Landwirt‑Ermächtigung</li>
+          </ul>
+          <h3>Technologien</h3>
+          <div class="tags" style="margin-bottom:12px"><span>GSM</span><span>Embedded</span></div>
+          <p><a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub‑Repository</a></p>
+          
+          <h3>Projektgalerie</h3>
+          <div class="project-gallery">
+            <div class="gallery-item">
+              <img src="assets/images/P aquagrid/1.jpg" alt="Bewässerungssystem 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P aquagrid/2.jpg" alt="Bewässerungssystem 2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P aquagrid/3.jpg" alt="Bewässerungssystem 3" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P aquagrid/4.jpg" alt="Bewässerungssystem 4" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P aquagrid/5.jpg" alt="Bewässerungssystem 5" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P aquagrid/6.jpg" alt="Bewässerungssystem 6" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <span>© <span id="year"></span> Amine Zaidi</span>
+        <div class="footer-links">
+          <a href="index-de.html">Start</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+

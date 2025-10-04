@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project: Wi‑Fi Controlled Vehicle (EN)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html#projects" class="logo">ENG<span>PORT</span></a>
+        <nav class="nav" id="nav">
+          <a href="index.html">Home</a>
+          <a href="index.html#projects">Projects</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container narrow">
+          <h1 class="section-title">Wi‑Fi Controlled Vehicle</h1>
+          <div class="card-media" style="margin-bottom:14px">
+            <img src="assets/images/P tnk/1 main.png" alt="Wi‑Fi Controlled Vehicle" style="width:100%;height:100%;object-fit:cover" />
+          </div>
+          <p class="intro">The project started as a concept of a modular mobile base for robotic exploration, based on an ESP microcontroller with the ability to add different radio modules for different frequencies. The addition of a tank turret was a fun idea I had in mind and a good proof of concept of a vertical stabilizer with accelerometer in addition to a camera for live video feed.</p>
+          
+          <h3>Project Details</h3>
+          <p><strong>Concept:</strong> Modular mobile platform designed for exploration and surveillance applications. The base design allows for easy integration of various sensors and communication modules.</p>
+          
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>ESP32-based control system with Wi-Fi connectivity</li>
+            <li>Modular radio communication system supporting multiple frequencies</li>
+            <li>Real-time video streaming via integrated camera module</li>
+            <li>Vertical stabilizer system with accelerometer feedback</li>
+            <li>3D-printed chassis and components for customization</li>
+            <li>Recycled materials integration for sustainable design</li>
+          </ul>
+          
+          <p><strong>Technical Implementation:</strong> The system uses C/C++ programming for low-level control, with sensor integration for stability and navigation. The modular design allows for easy upgrades and different payload configurations.</p>
+          <h3>Technologies</h3>
+          <div class="tags" style="margin-bottom:12px"><span>ESP</span><span>Wi‑Fi</span><span>Camera</span></div>
+          <p><a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repository</a></p>
+          
+          <h3>Project Gallery</h3>
+          <div class="project-gallery">
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/1.png" alt="Vehicle design 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/2.png" alt="Vehicle design 2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/3.jpg" alt="Vehicle build 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P tnk/4.jpg" alt="Vehicle build 2" />
+            </div>
+            <div class="gallery-item">
+              <video controls>
+                <source src="assets/images/P tnk/5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <span>© <span id="year"></span> Amine Zaidi</span>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+

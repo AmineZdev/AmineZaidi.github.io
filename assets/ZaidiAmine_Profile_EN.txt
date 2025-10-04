@@ -1,0 +1,65 @@
+Amine Zaidi — Engineering Profile (English)
+
+SOURCE: Extracted from the uploaded CV (German). File reference: fileciteturn0file0
+
+CONTACT
+- Email: aminezaidietudes@gmail.com
+- Phone: +49 152 1753 6495
+- LinkedIn: https://www.linkedin.com/in/amine-zaidi-a5751120a
+- Nationality: Moroccan
+- Place of birth: Morocco
+
+PROFILE SUMMARY
+Graduate in Embedded Systems with strong interest in electronics, programming, robotics and drones. Practical experience in microcontroller programming, firmware development and integrating electronic components. Passionate about technology and creative solutions; ready to contribute to innovative projects in dynamic environments.
+
+EDUCATION (most recent first)
+- Oct 2024 – Feb 2025: RPTU Kaiserslautern, Germany — Intensive course preparing for the DSH exam.
+- Oct 2023 – Apr 2024: Sprachzentrum Sbata, Meknes, Morocco — English course (TOEFL completed).
+- Oct 2023 – May 2024: Sprachzentrum Germarok, Meknes, Morocco — German course to prepare for B1 (ÖSD B1 certificate completed).
+- Sep 2022 – Jun 2023: Hochschule für Technologie, Meknes, Morocco — Electronics for Embedded Systems (Bachelor).
+- Sep 2019 – Mar 2021: Hochschule für Technologie, Fes, Morocco — Embedded Systems studies (DUT).
+- Sep 2016 – Jun 2019: Gymnasium Zitoune, Meknes, Morocco — Baccalauréat (Physics/Science).
+- Sep 2013 – Jun 2016: Collège Jabir Ibn Hayyan, Meknes, Morocco — Collège diploma.
+- Sep 2007 – Jun 2013: Grundschule Essada, Meknes, Morocco — Primary school diploma.
+
+WORK EXPERIENCE
+- Freelancer — Web Development (Sep 2023 – Present)
+  * Built a multi-vendor e-commerce website (Coutozon.fr) with group-purchase and auction features.
+- Internship — GTEL Development, Casablanca, Morocco (Apr 2023 – Jun 2023)
+  * Energy management systems for industrial energy monitoring.
+- Internship — AFROPIC, Mohammedia, Morocco (Apr 2022 – Sep 2022)
+  * Industrial automation projects (AFROPIC is the official representative of Sidel in Morocco).
+- Internship — YAZAKI, Meknès, Morocco (May 2021 – Jun 2021)
+  * Developed a notification system (call-to-intervene) for maintenance technicians to reduce downtime.
+
+PROJECTS
+- Final degree project: Development of an autonomous exploration robot controlled via Wi‑Fi (Raspberry Pi 4, camera, Arduino, integrated circuits, Python). Received top grade in the Electrical Engineering department.
+- Personal projects:
+  * Modular multipurpose drone with interchangeable modules (microcontrollers, 3D printed parts).
+  * Remote irrigation system with GSM communication for farmers in hometown.
+  * Wi‑Fi controlled vehicle built from recycled materials (ESP dev board, camera, integrated circuits).
+
+LANGUAGES
+- Arabic (native)
+- Tamazight (native)
+- German (advanced)
+- English (fluent)
+- French (fluent)
+
+TECHNICAL SKILLS
+- Hardware & Systems: Microcontrollers, microprocessors, Raspberry Pi, Arduino, ESP development boards, integrated circuits, PLCs, motor types (DC, servo, stepper, BLDC), PCB design.
+- Software & Tools: C/C++, Python, Dart/Flutter, MATLAB, JavaScript/Node-RED, HTML/CSS, PHP, WordPress, TIA Portal, Fusion 360, Blender, EasyEDA, Cursor.
+- Networking & Protocols: Wi‑Fi, Bluetooth, radio comms, Modbus, CAN, HTTP, MQTT, WebSockets.
+- Other: Full-stack web development, Office (Word, Excel, PowerPoint).
+
+SOFT SKILLS
+- Problem solving, creativity, adaptability/flexibility, leadership.
+
+HOBBIES & INTERESTS
+- Building robots, drawing & 3D modeling, sports (archery, volleyball).
+
+INSTRUCTIONS / USAGE
+- Use this English file to auto-fill forms or populate the English version of a portfolio website (sections: About, Skills, Projects, Education, Experience, Contact).
+- Also produce a German-language version using the German file provided alongside this one.
+
+End of English profile.

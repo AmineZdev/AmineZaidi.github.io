@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project: Autonomous Exploration Robot (EN)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html#projects" class="logo">ENG<span>PORT</span></a>
+        <nav class="nav" id="nav">
+          <a href="index.html">Home</a>
+          <a href="index.html#projects">Projects</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container narrow">
+          <h1 class="section-title">Autonomous Exploration Robot</h1>
+          <div class="card-media" style="margin-bottom:14px">
+            <img src="assets/images/P pfe/1 main.jpg" alt="Autonomous Exploration Robot" style="width:100%;height:100%;object-fit:cover" />
+          </div>
+          <p class="intro">This was my final study project - a self-driven robot that avoids obstacles using ultrasonic sensors and features an arm that picks up objects and transfers them to a dedicated area. The idea was to create a proof of concept for exploration or intervention in hard-to-reach areas, with the ability to extend functionality to include scanners or AI self-driving capabilities.</p>
+          
+          <h3>Project Overview</h3>
+          <p><strong>Objective:</strong> Develop an autonomous robot capable of navigation, obstacle avoidance, and object manipulation for exploration and intervention tasks in challenging environments.</p>
+          
+          <p><strong>Core Concept:</strong> The robot serves as a mobile platform that can operate independently or under remote supervision, making it ideal for applications in hazardous environments, search and rescue operations, or industrial inspection tasks.</p>
+          
+          <h3>Technical Implementation</h3>
+          <p><strong>Hardware Architecture:</strong></p>
+          <ul>
+            <li><strong>Raspberry Pi 4:</strong> Main processing unit running Python-based control algorithms</li>
+            <li><strong>Ultrasonic Sensors:</strong> Multiple sensors for 180-degree obstacle detection and avoidance</li>
+            <li><strong>Robotic Arm:</strong> Arm gripper for object handling</li>
+            <li><strong>Camera System:</strong> Real-time video feed for remote monitoring and navigation assistance</li>
+            <li><strong>Wi-Fi Module:</strong> Wireless communication for remote control and data transmission</li>
+            <li><strong>Motor Control:</strong> Differential drive system for precise movement and turning</li>
+          </ul>
+          
+          <p><strong>Software Stack:</strong></p>
+          <ul>
+            <li><strong>Python:</strong> Main programming language for control algorithms and sensor integration</li>
+            <li><strong>GPIO Control:</strong> Hardware interface for sensor and motor management</li>
+            <li><strong>Web Interface:</strong> Remote control dashboard for real-time monitoring</li>
+          </ul>
+          
+          <h3>Key Features</h3>
+          <ul>
+            <li><strong>Autonomous Navigation:</strong> Self-driving capability with obstacle avoidance algorithms</li>
+            <li><strong>Object Manipulation:</strong> Pick and place functionality with precision control</li>
+            <li><strong>Remote Operation:</strong> Wi-Fi controlled with live video streaming</li>
+            <li><strong>Real-time Monitoring:</strong> Live telemetry and video feed for operator oversight</li>
+          </ul>
+          
+          <h3>Applications & Future Extensions</h3>
+          <p>The robot demonstrates potential for various applications including:</p>
+          <ul>
+            <li>Search and rescue operations in disaster zones</li>
+            <li>Industrial inspection in hazardous environments</li>
+            <li>Exploration of confined or dangerous spaces</li>
+            <li>Automated material handling in warehouses</li>
+          </ul>
+          
+          <p><strong>Future Enhancements:</strong> The modular design allows for integration of additional sensors (LIDAR, thermal cameras), AI-based navigation, and specialized tools for specific applications.</p>
+          <h3>Technologies</h3>
+          <div class="tags" style="margin-bottom:12px"><span>Raspberry Pi</span><span>Electronics</span><span>Python</span></div>
+          <p><a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repository</a></p>
+          
+          <h3>Project Gallery</h3>
+          <div class="project-gallery">
+            <div class="gallery-item">
+              <img src="assets/images/P pfe/1.jpg" alt="Robot image 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P pfe/2.jpg" alt="Robot image 2" />
+            </div>
+            <div class="gallery-item">
+              <video controls>
+                <source src="assets/images/P pfe/VID_20210422_162047.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <span>© <span id="year"></span> Amine Zaidi</span>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+

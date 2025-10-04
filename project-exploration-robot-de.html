@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projekt: Autonomer Erkundungsroboter (DE)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index-de.html#projects" class="logo">ENG<span>PORT</span></a>
+        <nav class="nav" id="nav">
+          <a href="index-de.html">Start</a>
+          <a href="index-de.html#projects">Projekte</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Navigation umschalten" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container narrow">
+          <h1 class="section-title">Autonomer Erkundungsroboter</h1>
+          <div class="card-media" style="margin-bottom:14px">
+            <img src="assets/images/P pfe/1 main.jpg" alt="Autonomer Erkundungsroboter" style="width:100%;height:100%;object-fit:cover" />
+          </div>
+          <p class="intro">Dies war mein Abschlussprojekt - ein selbstfahrender Roboter, der Hindernisse mit Ultraschallsensoren vermeidet und einen Arm besitzt, der Objekte aufnimmt und in einen speziellen Bereich transportiert. Die Idee war, einen Machbarkeitsnachweis für Erkundung oder Intervention in schwer zugänglichen Bereichen zu schaffen, mit der Möglichkeit, die Funktionalität um Scanner oder KI‑Selbstfahrfunktionen zu erweitern.</p>
+          
+          <h3>Projektübersicht</h3>
+          <p><strong>Ziel:</strong> Entwicklung eines autonomen Roboters mit Navigationsfähigkeit, Hindernisvermeidung und Objektmanipulation für Erkundungs‑ und Interventionsaufgaben in anspruchsvollen Umgebungen.</p>
+          
+          <p><strong>Kernkonzept:</strong> Der Roboter dient als mobile Plattform, die unabhängig oder unter Fernüberwachung operieren kann, was ihn ideal für Anwendungen in gefährlichen Umgebungen, Such‑ und Rettungseinsätzen oder industriellen Inspektionsaufgaben macht.</p>
+          
+          <h3>Technische Umsetzung</h3>
+          <p><strong>Hardware‑Architektur:</strong></p>
+          <ul>
+            <li><strong>Raspberry Pi 4:</strong> Hauptprozessoreinheit mit Python‑basierten Steuerungsalgorithmen</li>
+            <li><strong>Ultraschallsensoren:</strong> Mehrere Sensoren für 180‑Grad‑Hinderniserkennung und ‑vermeidung</li>
+            <li><strong>Roboterarm:</strong> Präzisionsgreifer für Objekthandhabung</li>
+            <li><strong>Kamerasystem:</strong> Echtzeit‑Videofeed für Fernüberwachung und Navigationsunterstützung</li>
+            <li><strong>WLAN‑Modul:</strong> Drahtlose Kommunikation für Fernsteuerung und Datenübertragung</li>
+            <li><strong>Motorsteuerung:</strong> Differentialantriebssystem für präzise Bewegung und Drehung</li>
+          </ul>
+          
+          <p><strong>Software‑Stack:</strong></p>
+          <ul>
+            <li><strong>Python:</strong> Hauptprogrammiersprache für Steuerungsalgorithmen und Sensorintegration</li>
+            <li><strong>GPIO‑Steuerung:</strong> Hardware‑Interface für Sensor‑ und Motormanagement</li>
+            <li><strong>Web‑Interface:</strong> Fernsteuerungs‑Dashboard für Echtzeitüberwachung</li>
+          </ul>
+          
+          <h3>Hauptmerkmale</h3>
+          <ul>
+            <li><strong>Autonome Navigation:</strong> Selbstfahrfähigkeit mit Hindernisvermeidungsalgorithmen</li>
+            <li><strong>Objektmanipulation:</strong> Pick‑and‑Place‑Funktionalität mit Präzisionssteuerung</li>
+            <li><strong>Fernbetrieb:</strong> WLAN‑gesteuert mit Live‑Videostreaming</li>
+            <li><strong>Echtzeitüberwachung:</strong> Live‑Telemetrie und Videofeed für Bedienerüberwachung</li>
+          </ul>
+          
+          <h3>Anwendungen & Zukünftige Erweiterungen</h3>
+          <p>Der Roboter zeigt Potenzial für verschiedene Anwendungen, einschließlich:</p>
+          <ul>
+            <li>Such‑ und Rettungseinsätze in Katastrophengebieten</li>
+            <li>Industrielle Inspektion in gefährlichen Umgebungen</li>
+            <li>Erkundung von engen oder gefährlichen Räumen</li>
+            <li>Automatisierte Materialhandhabung in Lagern</li>
+          </ul>
+          
+          <p><strong>Zukünftige Verbesserungen:</strong> Das modulare Design ermöglicht die Integration zusätzlicher Sensoren (LIDAR, Wärmebildkameras), KI‑basierte Navigation und spezialisierte Werkzeuge für spezifische Anwendungen.</p>
+          <h3>Technologien</h3>
+          <div class="tags" style="margin-bottom:12px"><span>Raspberry Pi</span><span>Elektronik</span><span>Python</span></div>
+          <p><a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub‑Repository</a></p>
+          
+          <h3>Projektgalerie</h3>
+          <div class="project-gallery">
+            <div class="gallery-item">
+              <img src="assets/images/P pfe/1.jpg" alt="Roboter Bild 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/P pfe/2.jpg" alt="Roboter Bild 2" />
+            </div>
+            <div class="gallery-item">
+              <video controls>
+                <source src="assets/images/P pfe/VID_20210422_162047.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Element nicht.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <span>© <span id="year"></span> Amine Zaidi</span>
+        <div class="footer-links">
+          <a href="index-de.html">Start</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+

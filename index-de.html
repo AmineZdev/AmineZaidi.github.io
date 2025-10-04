@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio von Amine Zaidi – Eingebettete Systeme" />
+    <title>Portfolio – Amine Zaidi (DE)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#home" class="logo">AMINE<span>PORTFOLLIO</span></a>
+        <nav class="nav" id="nav">
+          <a href="#home">Start</a>
+          <a href="#about">Über mich</a>
+          <a href="#skills">Fähigkeiten</a>
+          <a href="#languages">Sprachen</a>
+          <a href="#projects">Projekte</a>
+          <a href="#experience">Erfahrung</a>
+          <a href="#contact" class="btn btn-small">Kontakt</a>
+          <a href="index.html" aria-label="English" title="English">EN</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Navigation umschalten" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-text reveal">
+            <h1 class="headline">Hallo, ich bin <span class="accent">Amine Zaidi</span></h1>
+            <p class="tagline">Absolvent Eingebettete Systeme • Elektronik, Robotik & Drohnen</p>
+            <p class="intro">Absolvent in Eingebetteten Systemen mit praktischer Erfahrung in Mikrocontroller‑Programmierung, Firmware‑Entwicklung und Integration elektronischer Komponenten. Begeistert von Technologie und kreativen Lösungen; bereit, in dynamischen Umgebungen an innovativen Projekten mitzuwirken.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn">Projekte ansehen</a>
+              <a href="#contact" class="btn btn-ghost">Kontakt aufnehmen</a>
+            </div>
+          </div>
+          <div class="hero-media reveal">
+            <img src="assets/images/pfp.jpg" alt="Profilbild" class="avatar" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Über mich -->
+      <section id="about" class="section">
+        <div class="container narrow">
+          <h2 class="section-title reveal">Über mich</h2>
+          <p class="reveal">Ich bin Absolvent in Eingebetteten Systemen mit starkem Interesse an Elektronik, Programmierung, Robotik und Drohnen. Ich habe praktische Erfahrung mit Mikrocontrollern, Firmware und der Integration elektronischer Komponenten. Mein Ziel ist es, zuverlässige Systeme in Robotik, IoT und Automatisierung zu entwickeln.</p>
+        </div>
+      </section>
+
+      <!-- Fähigkeiten -->
+      <section id="skills" class="section alt">
+        <div class="container">
+          <h2 class="section-title reveal">Fähigkeiten</h2>
+          <div class="skills-grid">
+            <div class="skill reveal">
+              <div class="skill-head"><span>Mikrocontroller & Eingebettete Systeme</span><span class="skill-val" data-value="90">90%</span></div>
+              <div class="bar"><span style="--value:90%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Elektronik & PCB‑Design</span><span class="skill-val" data-value="88">88%</span></div>
+              <div class="bar"><span style="--value:88%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>C/C++ & Python</span><span class="skill-val" data-value="85">85%</span></div>
+              <div class="bar"><span style="--value:85%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Netzwerke (Wi‑Fi, MQTT, CAN)</span><span class="skill-val" data-value="80">80%</span></div>
+              <div class="bar"><span style="--value:80%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Robotik & Regelung</span><span class="skill-val" data-value="82">82%</span></div>
+              <div class="bar"><span style="--value:82%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Software‑Tools (TIA Portal, Fusion 360, EasyEDA)</span><span class="skill-val" data-value="85">85%</span></div>
+              <div class="bar"><span style="--value:85%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Webentwicklung (HTML/CSS, PHP, WordPress)</span><span class="skill-val" data-value="80">80%</span></div>
+              <div class="bar"><span style="--value:80%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Kommunikationsprotokolle (Modbus, HTTP, WebSockets)</span><span class="skill-val" data-value="78">78%</span></div>
+              <div class="bar"><span style="--value:78%"></span></div>
+            </div>
+          </div>
+          <div class="skills-more">
+            <button class="skills-toggle" id="skillsToggle">Weitere Fähigkeiten...</button>
+            <div class="skills-extra" id="skillsExtra">
+              <div class="skill reveal">
+                <div class="skill-head"><span>Assembler</span><span class="skill-val" data-value="75">75%</span></div>
+                <div class="bar"><span style="--value:75%"></span></div>
+              </div>
+              <div class="skill reveal">
+                <div class="skill-head"><span>JavaScript & Node.js</span><span class="skill-val" data-value="80">80%</span></div>
+                <div class="bar"><span style="--value:80%"></span></div>
+              </div>
+              <div class="skill reveal">
+                <div class="skill-head"><span>Dart & Flutter</span><span class="skill-val" data-value="75">75%</span></div>
+                <div class="bar"><span style="--value:75%"></span></div>
+              </div>
+              <div class="skill reveal">
+                <div class="skill-head"><span>PHP & MySQL</span><span class="skill-val" data-value="78">78%</span></div>
+                <div class="bar"><span style="--value:78%"></span></div>
+              </div>
+              <div class="skill reveal">
+                <div class="skill-head"><span>MATLAB & Simulink</span><span class="skill-val" data-value="82">82%</span></div>
+                <div class="bar"><span style="--value:82%"></span></div>
+              </div>
+              <div class="skill reveal">
+                <div class="skill-head"><span>Blender & 3D‑Modellierung</span><span class="skill-val" data-value="70">70%</span></div>
+                <div class="bar"><span style="--value:70%"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sprachen -->
+      <section id="languages" class="section">
+        <div class="container">
+          <h2 class="section-title reveal">Sprachen</h2>
+          <div class="skills-grid">
+            <div class="skill reveal">
+              <div class="skill-head"><span>Arabisch (Muttersprache)</span><span class="skill-val" data-value="100">Muttersprache</span></div>
+              <div class="bar"><span style="--value:100%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Englisch</span><span class="skill-val" data-value="90">Professionell</span></div>
+              <div class="bar"><span style="--value:90%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Französisch</span><span class="skill-val" data-value="85">Professionell</span></div>
+              <div class="bar"><span style="--value:85%"></span></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head"><span>Deutsch</span><span class="skill-val" data-value="75">Kommunikation/Studium</span></div>
+              <div class="bar"><span style="--value:75%"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projekte -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title reveal">Projekte</h2>
+          <div class="projects-grid">
+            <article class="card reveal" data-href="project-irrigation-de.html">
+              <div class="card-media">
+                <img src="assets/images/P aquagrid/1 main.jpg" alt="AQUAGRID - Fernbewässerung" style="width:100%;height:100%;object-fit:cover" />
+              </div>
+              <div class="card-body">
+                <h3>AQUAGRID - Fernbewässerung</h3>
+                <p>Intelligentes Bewässerungssystem mit GSM‑Kommunikation und IoT‑Überwachung für nachhaltige Landwirtschaft.</p>
+                <div class="tags"><span>GSM</span><span>IoT</span><span>Embedded</span></div>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/" target="_blank" rel="noopener" class="link">GitHub</a>
+              </div>
+            </article>
+            <article class="card reveal" data-href="project-drone-de.html">
+              <div class="card-media">
+                <img src="assets/images/P pln/1 main.jpg" alt="Modulare Mehrzweckdrohne" style="width:100%;height:100%;object-fit:cover" />
+              </div>
+              <div class="card-body">
+                <h3>Modulare Mehrzweckdrohne</h3>
+                <p>Austauschbare 3D‑gedruckte Module mit Mikrocontrollern für verschiedene Nutzlasten und Aufgaben.</p>
+                <div class="tags"><span>Mikrocontroller</span><span>3D‑Druck</span></div>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/" target="_blank" rel="noopener" class="link">GitHub</a>
+              </div>
+            </article>
+            <article class="card reveal" data-href="project-wifi-car-de.html">
+              <div class="card-media">
+                <img src="assets/images/P tnk/1 main.png" alt="WLAN‑gesteuertes Fahrzeug" style="width:100%;height:100%;object-fit:cover" />
+              </div>
+              <div class="card-body">
+                <h3>WLAN‑gesteuertes Fahrzeug</h3>
+                <p>Aus recycelten Materialien gebautes Fahrzeug mit ESP‑Entwicklungsboard, Kamera und integrierten Schaltkreisen.</p>
+                <div class="tags"><span>ESP</span><span>WLAN</span><span>Kamera</span></div>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/" target="_blank" rel="noopener" class="link">GitHub</a>
+              </div>
+            </article>
+            <article class="card reveal" data-href="project-exploration-robot-de.html">
+              <div class="card-media">
+                <img src="assets/images/P pfe/1 main.jpg" alt="Autonomer Erkundungsroboter" style="width:100%;height:100%;object-fit:cover" />
+              </div>
+              <div class="card-body">
+                <h3>Autonomer Erkundungsroboter</h3>
+                <p>Abschlussprojekt: Selbstfahrender Roboter mit Hindernisvermeidung, Objektmanipulation und Fernsteuerung.</p>
+                <div class="tags"><span>Raspberry Pi</span><span>Python</span><span>Robotik</span></div>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/" target="_blank" rel="noopener" class="link">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Erfahrung & Studium -->
+      <section id="experience" class="section alt">
+        <div class="container">
+          <h2 class="section-title reveal">Erfahrung & Studium</h2>
+          <div class="tabs">
+            <button class="tab-btn" data-tab="exp" aria-pressed="true">Erfahrung</button>
+            <button class="tab-btn" data-tab="edu" aria-pressed="false">Studium</button>
+          </div>
+          <div class="tab-panel active" id="panel-exp">
+            <div class="timeline">
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>CTO — AQUAGRID (Startup)</h3><span class="t-meta">Mai 2025 – Jetzt</span></div>
+                  <p>Leitung der Technologieentwicklung für intelligente Bewässerungssysteme mit IoT‑Überwachung und KI‑Unterstützung.</p>
+                </div>
+              </div>
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>Freiberufler — COUTOZON</h3><span class="t-meta">Sep 2023 – Jetzt</span></div>
+                  <p>Aufbau einer Multi‑Vendor E‑Commerce‑Website (<a href="https://Coutozon.fr" target="_blank" rel="noopener" class="link">Coutozon.fr</a>) mit Gruppenkauf‑ und Auktionsfunktionen.</p>
+                </div>
+              </div>
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>Praktikum — GTEL Development</h3><span class="t-meta">Apr 2023 – Jun 2023</span></div>
+                  <p>Energiemanagementsysteme zur industriellen Energieüberwachung.</p>
+                </div>
+              </div>
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>Praktikum — AFROPIC</h3><span class="t-meta">Apr 2022 – Sep 2022</span></div>
+                  <p>Automatisierungsprojekte im industriellen Bereich (offizieller Vertreter von Sidel in Marokko).</p>
+                </div>
+              </div>
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>Praktikum — YAZAKI</h3><span class="t-meta">Mai 2021 – Jun 2021</span></div>
+                  <p>Entwicklung eines Benachrichtigungssystems (Anruf zum Eingreifen) zur Reduzierung von Stillstandzeiten.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-panel" id="panel-edu">
+            <div class="timeline">
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>RPTU Kaiserslautern — Intensivkurs DSH</h3><span class="t-meta">Okt 2024 – Feb 2025</span></div>
+                  <p>Deutsch‑Intensivkurs zur Vorbereitung auf die DSH‑Prüfung.</p>
+                </div>
+              </div>
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>Elektronik für eingebettete Systeme (Bachelor)</h3><span class="t-meta">Sep 2022 – Jun 2023</span></div>
+                  <p>Hochschule für Technologie, Meknes, Marokko.</p>
+                </div>
+              </div>
+              <div class="t-item reveal">
+                <div class="t-marker"></div>
+                <div class="t-card">
+                  <div class="t-header"><h3>Studium eingebettete Systeme (DUT)</h3><span class="t-meta">Sep 2019 – Mär 2021</span></div>
+                  <p>Hochschule für Technologie, Fes, Marokko.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kontakt -->
+      <section id="contact" class="section">
+        <div class="container narrow">
+          <h2 class="section-title reveal">Kontakt</h2>
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Ihr Name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">E‑Mail</label>
+                <input type="email" id="email" name="email" placeholder="sie@example.com" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" rows="5" placeholder="Wie kann ich helfen?" required></textarea>
+            </div>
+            <button type="submit" class="btn">Nachricht senden</button>
+            <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="socials reveal">
+            <a href="mailto:aminezaidietudes@gmail.com" class="social">E‑Mail</a>
+            <a href="tel:+4915217536495" class="social">Telefon</a>
+            <a href="https://www.linkedin.com/in/amine-zaidi-a5751120a" target="_blank" rel="noopener" class="social">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <span>© <span id="year"></span> Amine Zaidi</span>
+        <div class="footer-links">
+          <a href="#home">Top</a>
+          <a href="https://www.linkedin.com/in/amine-zaidi-a5751120a" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="index.html">EN</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+

@@ -1,0 +1,65 @@
+Amine Zaidi — Profil (Deutsch)
+
+QUELLE: Aus dem hochgeladenen Lebenslauf (Deutsch). Dateireferenz: fileciteturn0file0
+
+KONTAKT
+- E-Mail: aminezaidietudes@gmail.com
+- Telefon: +49 152 1753 6495
+- LinkedIn: https://www.linkedin.com/in/amine-zaidi-a5751120a
+- Staatsangehörigkeit: Marokkanisch
+- Geburtsort: Marokko
+
+PROFIL
+Absolvent in Eingebetteten Systemen mit starkem Interesse an Elektronik, Programmierung, Robotik und Drohnen. Praktische Erfahrung in Mikrocontroller-Programmierung, Firmware-Entwicklung und Integration elektronischer Komponenten. Leidenschaft für Technologie und kreative Lösungen; bereit, in dynamischen Umgebungen an innovativen Projekten mitzuwirken.
+
+AUSBILDUNG (neueste zuerst)
+- Okt 2024 – Feb 2025: RPTU Kaiserslautern, Deutschland — Intensivkurs zur Vorbereitung auf die DSH-Prüfung.
+- Okt 2023 – Apr 2024: Sprachzentrum Sbata, Meknes, Marokko — Englischkurs (TOEFL Abschluss).
+- Okt 2023 – Mai 2024: Sprachzentrum Germarok, Meknes, Marokko — Deutschkurs zur Vorbereitung auf B1 (ÖSD B1 Zertifikat).
+- Sep 2022 – Jun 2023: Hochschule für Technologie, Meknes, Marokko — Elektronik für eingebettete Systeme (Bachelor).
+- Sep 2019 – Mär 2021: Hochschule für Technologie, Fes, Marokko — Studium eingebettete Systeme (DUT).
+- Sep 2016 – Jun 2019: Gymnasium Zitoune, Meknes, Marokko — Baccalauréat (Physikwissenschaften).
+- Sep 2013 – Jun 2016: Collège Jabir Ibn Hayyan, Meknes, Marokko — Collège-Abschluss.
+- Sep 2007 – Jun 2013: Grundschule Essada, Meknes, Marokko — Grundschulabschluss.
+
+BERUFSERFAHRUNG
+- Freiberufler — Webentwicklung (Sep 2023 – Jetzt)
+  * Aufbau einer Multi‑Vendor E‑Commerce‑Website (Coutozon.fr) mit Gruppenkauf‑ und Auktionsfunktionen.
+- Praktikum — GTEL Development, Casablanca, Marokko (Apr 2023 – Jun 2023)
+  * Energiemanagementsysteme zur industriellen Energieüberwachung.
+- Praktikum — AFROPIC, Mohammedia, Marokko (Apr 2022 – Sep 2022)
+  * Automatisierungsprojekte im industriellen Bereich (AFROPIC ist offizieller Vertreter von Sidel in Marokko).
+- Praktikum — YAZAKI, Meknès, Marokko (Mai 2021 – Jun 2021)
+  * Entwicklung eines Benachrichtigungssystems (Anruf zum Eingreifen) für Wartungstechniker zur Reduzierung von Stillstandzeiten.
+
+PROJEKTE
+- Studienabschlussprojekt: Entwicklung eines selbstfahrenden Erkundungsroboters, gesteuert über WLAN (Raspberry Pi 4, Kamera, Arduino, integrierte Schaltkreise, Python). Bestnote im Fachbereich Elektrotechnik.
+- Persönliche Projekte:
+  * Mehrzweckdrohne mit austauschbaren Modulen (Mikrocontroller, 3D‑Druck).
+  * Fernbewässerungssystem mit GSM‑Kommunikation für Landwirte in der Heimatstadt.
+  * WLAN‑gesteuertes Fahrzeug aus wiederverwertbaren Materialien (ESP‑Entwicklungsboard, Kamera, integrierte Schaltkreise).
+
+SPRACHEN
+- Arabisch (Muttersprache)
+- Tamazight (Muttersprache)
+- Deutsch (Fortgeschritten)
+- Englisch (fließend)
+- Französisch (fließend)
+
+TECHNISCHE FÄHIGKEITEN
+- Hardware & Systeme: Mikrocontroller, Mikroprozessoren, Raspberry Pi, Arduino, ESP‑Entwicklungsplatinen, integrierte Schaltkreise, SPS, Motortypen (DC, Servo, Schrittmotor, BLDC), PCB‑Design.
+- Software & Tools: C/C++, Python, Dart/Flutter, MATLAB, JavaScript/Node‑RED, HTML/CSS, PHP, WordPress, TIA Portal, Fusion 360, Blender, EasyEDA, Cursor.
+- Netzwerke & Protokolle: Wi‑Fi, Bluetooth, Funkkommunikation, Modbus, CAN, HTTP, MQTT, WebSockets.
+- Sonstiges: Full‑Stack Webentwicklung, Office (Word, Excel, PowerPoint).
+
+SOFT SKILLS
+- Problemlösung, Kreativität, Anpassungsfähigkeit/Flexibilität, Führung.
+
+HOBBYS & INTERESSEN
+- Roboterbau, Zeichnen & 3D‑Modellierung, Sport (Bogenschießen, Volleyball).
+
+ANWEISUNGEN / NUTZUNG
+- Verwenden Sie diese deutsche Datei, um Formulare automatisch auszufüllen oder die deutschsprachige Version einer Portfolio‑Website zu befüllen.
+- Erstellen Sie außerdem eine englische Version mit der englischen Datei, die parallel bereitgestellt wird.
+
+Ende des deutschen Profils.
